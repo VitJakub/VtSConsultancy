@@ -37,6 +37,7 @@ body {
 }
 
 .section {
+    height: 100vh; /* Set section height to 100% of viewport height */
     background-color: #444; /* Set background color to a darker shade of grey */
     padding: 50px 0;
 }
