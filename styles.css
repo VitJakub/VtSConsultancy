@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #fff; /* Set text color to white */
+    background-color: #222; /* Set background color to dark grey */
 }
 
 .intro {
@@ -21,21 +23,21 @@ body {
 
 .btn {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #000; /* Set button background color a little darker than the background */
     color: #fff;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px; /* Set border-radius for rounded corners */
     font-size: 1.2rem;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #333; /* Darken button background color on hover */
 }
 
 .section {
-    background-color: #f0f0f0;
+    background-color: #444; /* Set background color to a darker shade of grey */
     padding: 50px 0;
 }
 
@@ -80,4 +82,26 @@ footer {
 
 .social-link:hover {
     opacity: 0.7;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.offer {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #666; /* Set background color to a darker shade of grey */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.offer h3 {
+    font-size: 1.5rem;
+}
+
+.offer p {
+    font-size: 1rem;
 }
