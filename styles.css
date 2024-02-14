@@ -54,11 +54,11 @@ body {
 }
 
 /* Apply animation to div */
-section {
-    animation: fadeInUp 1s ease-out;
+content {
+    animation: fadeInLeft 1s ease-out;
 }
 
-.intro {
+intro {
     animation: fadeInUp 1s ease-out;
 }
 
