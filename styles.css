@@ -54,7 +54,7 @@ body {
 }
 
 /* Apply animation to div */
-.section {
+section {
     animation: fadeInUp 1s ease-out;
 }
 
