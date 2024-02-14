@@ -53,9 +53,8 @@ body {
     }
 }
 
-/* Apply animation to sections */
-.section {
-    height: 100vh;
+/* Apply animation to div */
+div {
     animation: fadeInUp 1s ease-out;
 }
 
