@@ -1,74 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VtS Consultancy</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Home</title>
+  <link rel="stylesheet" href="base.css" />
+  <link rel="stylesheet" href="transitions.css" />
+  <script type="module" src="swup.js"></script>
 </head>
+
 <body>
-    <div class="intro">
-        <h1>VtS Consultancy</h1>
-        <a href="mailto:vit.jakub@gmail.com" class="btn">Work with me</a>
-    </div>
-
-    <section id="consultancy" class="section">
-        <div class="container">
-            <h2>Consultancy Services</h2>
-            <div class="content">
-                <p>Do you need an expert to support building or maintenance of datawarehouses on premises or in the cloud?
-                    I have experience working in Azure and Amazon cloud as well as with creating automated solutions in both Windows and Linux OS, either for deployment or maintenance. 
-                    I know my way around object oriented programming and can help design applications or basic interfaces.
-				</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="content">
-                <p>I've worked in IT field since early 2000's for multiple multinational software companies in support, data warehouse design, consultancy, implementation, IT architecture and design. I learned a lot from them but decided to fly solo by establishing my own consultancy.
-
-                    I want to provide you with highest quality services, knowledge, coding skills, but I also want to learn and apply new methods of work like utilizing AI tools on my projects.
-				</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="offer" class="section">
-        <div class="container">
-            <h2>What I Offer</h2>
-            <div class="offer-container">
-                <div class="offer">
-                    <h3>Web Development</h3>
-                    <p>This is a placeholder text for web development services.</p>
-                </div>
-                <div class="offer">
-                    <h3>Software Solutions</h3>
-                    <p>This is a placeholder text for software solutions services.</p>
-                </div>
-                <div class="offer">
-                    <h3>IT Consulting</h3>
-                    <p>This is a placeholder text for IT consulting services.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <h2>Let's Collaborate</h2>
-            <div class="social-media">
-                <a href="www.linkedin.com/in/jakub-vít-8270b516" target="_blank" class="social-link">LinkedIn</a>
-                <!-- Add more social media links as needed -->
-            </div>
-            <div class="contact-info">
-                <p>Email me</p>
-                <p>Call me</p>
-                <!-- Add more contact details as needed -->
-            </div>
-        </div>
-    </footer>
+  <div class="layout">
+    <header class="header">
+      <img src="logo_transparent.png" alt="VtS Consultancy Logo" class="logo">
+    </header>
+    <main id="swup" class="overview transition-main">
+      <h1>
+        <span>VtS Consultancy</span>
+      </h1>
+      <div class="grid" style="--count: 6;">
+        <article class="card" style="--index: 0;">
+          <h2 class="card__title">
+            <a href="detail-about.html">About Me  →</a>
+          </h2>
+          <div class="card__content">
+            Projects I have worked on
+          </div>
+          <a href="detail-about.html">About Me</a>
+        </article>
+        <article class="card" style="--index: 1;">
+          <h2 class="card__title">
+            <a href="detail-consultancy.html">Consultancy  →</a>
+          </h2>
+          <div class="card__content">
+            What can I help you with
+          </div>
+          <a href="detail-consultancy.html">Consultancy</a>
+        </article>
+        <article class="card" style="--index: 2;">
+          <h2 class="card__title">
+            <a href="detail-offer.html">What I offer  →</a>
+          </h2>
+          <div class="card__content">
+            Ideas, expertise areas, pricing
+          </div>
+          <a href="detail-offer.html">What I offer</a>
+        </article>
+        <article class="card" style="--index: 3;">
+          <h2 class="card__title">
+            <a href="detail-contact.html">Contact  →</a>
+          </h2>
+          <div class="card__content">
+            
+          </div>
+          <a href="detail-contact.html">Contact</a>
+        </article>
+      </div>
+    </main>
+  </div>
 </body>
+
 </html>
